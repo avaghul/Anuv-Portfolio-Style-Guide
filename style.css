@@ -1,0 +1,383 @@
+
+
+#html{
+  font-family: Poppins, sans-serif;
+}
+
+  h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  h2{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+  
+  h3{
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  p{
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  
+  
+  header {
+    background-color: black;
+    height: 200px;
+  }
+  
+  header h1{
+    position: relative;
+    top: 50px;
+    left: 40px;
+    float: left;
+    color: white;
+  }
+  
+  
+  #designVision{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  
+  #toMe{
+    margin-top: 50px;
+    margin-left:40px;
+  }
+  
+  strong{
+    font-weight: 600;
+    color: #048ABF;
+  }
+  
+  #visionsub{
+    font-weight: 300;
+    line-height: 2;
+    text-align: justify;
+    width: 980px;
+    margin-left: 40px;
+  }
+  
+  #colors{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  
+  .primary{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 40px;
+  }
+  
+  .colorContainer{
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  
+  .hexcode{
+    margin-top: 12px;
+  }
+  
+  .swatch{
+    height: 210px;
+    width: 210px;
+  }
+  
+  .secondary{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  
+  .darkBlue{
+    background-color: #253340;
+  }
+  
+  .darkblueHover{
+    background-color: #878F96;
+  }
+  
+  .turquoise{
+    background-color: #588A97;
+  }
+  
+  .turquoiseHover{
+    background-color: #A3BFC6;
+  }
+  
+  .lightBlue{
+    background-color: #658DA6;
+  }
+  
+  .brown{
+    background-color: #A6936F;
+  }
+  
+  .bone{
+    background-color: #F2E9CE;
+  }
+  
+  .laserBlue{
+    background-color: #048ABF;
+  }
+  
+  .pink{
+    background-color: #F2A298;
+  }
+  
+  .orange{
+    background-color: #F29A2E;
+  }
+  
+  #buttons{
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+  
+  #normal{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: grey;
+    margin-left: 40px;
+    margin-right: 29px;
+  }
+  
+  #hover{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 46px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  #disabled{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 46px;
+    margin-left: 40px;
+    margin-right: 19px;
+  }
+
+  #focused{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 46px;
+    margin-left: 40px;
+    margin-right: 19px;
+  }
+  
+  .buttonContainer{
+    display: inline-block;
+  }
+  
+  .button{
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  
+  .altBlue{
+    border: 2px solid #048ABF;
+    background-color: white;
+    color: black;
+  }
+  
+  .altblueHover{
+    background-color: #048ABF;
+    color: white;
+  }
+  
+  .darkblueDisabled{
+    background-color: #515C66;
+    color: #A6ABB1;
+  }
+  
+  .turquoiseDisabled{
+    background-color: #79A1AC;
+    color: #C9D9DE;
+  }
+  
+  .altblueDisabled{
+    border: 2px solid #9AD0E5;
+    background-color: White;
+    color: #969DA3;
+  }
+
+  .darkblueFocused{
+    border: 2px solid #F29A2E;
+    background-color: #253340;
+    color: white;
+  }
+  
+  .turquoiseFocused{
+    border: 2px solid #F29A2E;
+    background-color: #588A97;
+    color: white;
+  }
+
+  #typography{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+
+  #typographyImage{
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  #navigation{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  
+  
+  #navNormal{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 46px;
+    margin-left: 40px;
+    margin-right: 19px;
+  }
+  
+  .navstateNormal{
+    display: inline-block;
+    margin-left: 40px;
+    color: black;
+    font-size: 24px;
+    font-weight: 400px;
+  }
+  
+  #navHover{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 46px;
+    margin-left: 40px;
+    margin-right: 19px;
+  }
+  
+  .navstateHover{
+    display: inline-block;
+    margin-left: 48px;
+    color: black;
+    font-size: 24px;
+    font-weight: 400px;
+    text-decoration: underline;
+  }
+  
+  #iconography{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+
+  #desktop{
+    margin-top: 50px;
+  }
+
+  #desktopIcons{
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+
+  #mobile{
+    margin-top: 60px;
+  }
+
+  #mobileIcons{
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+
+  #socialmedia{
+    margin-top: 60px;
+  }
+
+  #socialmediaIcons{
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+
+  #imagery{
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  
+  .images{
+    display: inline-block;
+  }
+  
+  .image1{
+    margin-top: 16px;
+    height:293px;
+    width:440px;
+    margin-left: 40px;
+  }
+  
+  .image1Text{
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+  
+  .image2{
+    margin-left: 10px;
+    margin-right: 10px;
+    height:293px;
+    width:440px;
+  }
+  
+  .image2Text{
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    margin-top: 14px;
+    margin-left: 10px;
+  }
+  
+  .image3{
+    height:293px;
+    width:440px;
+  }
+  
+  .image3Text{
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    margin-top: 14px;
+  }
+  
+  
+  
+  
